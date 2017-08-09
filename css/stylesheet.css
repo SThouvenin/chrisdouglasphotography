@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .small-logo {
   width: 45%;
 }
@@ -8,23 +12,21 @@
 
 nav {
   width: 100vw;
+  margin-right: 25px;
 }
 
 nav ul {
   overflow: hidden;
   width: 100vw;
 }
-#homePadding {
-  padding-left: 0%;
-}
 
 #addPaddingRight {
   padding-right: 0;
 }
 
-#contactPadding{
-  padding-left: 5%;
-}
+/*#contactPadding{
+  padding-right: 5%;
+}*/
 
 #logo {
   width: 90%;
@@ -50,6 +52,47 @@ and (max-device-width : 480px) {
 /* Styles */
 }
 
+/* Nexus 10(portrait and landscape) ----------- */
+@media only screen and (min-device-width : 800px) 
+and (max-device-width : 1280px) {
+/* Styles */
+}
+
+/* Nexus 10 (landscape) ----------- */
+@media only screen and (min-device-width : 800px) 
+and (max-device-width : 1280px) 
+and (orientation : landscape) {
+/*#homePadding{
+  padding-left: 9%;
+}*/
+.logo #logo{
+  width: 350px;
+}
+.container {
+  width: 100vw;
+}
+
+}
+
+/* Nexus 10 (portrait) ----------- */
+@media only screen and (min-device-width : 800px) 
+and (max-device-width : 1280px) 
+and (orientation : portrait) {
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.logo #logo{
+  width: 200px;
+}
+#homePadding{
+  padding-left: 10%;
+}
+}
+
+
+
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
@@ -60,24 +103,48 @@ and (max-device-width : 1024px) {
 @media only screen and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-/* Styles */
+/*#homePadding{
+  padding-left: 9%;
+}*/
+.logo #logo{
+  width: 150px;
+}
+.container {
+  width: 100vw;
+}
+#homePadding{
+  padding-left: 15%;
+}
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
-/* Styles */
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.logo #logo{
+  width: 200px;
+}
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
-/* Styles */
+#homePadding {
+  padding-left: 15%;
+}
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-/* Styles */
+#homePadding {
+  padding-left: 15%;
+}
+#contactPadding{
+  padding-right: 15%;
+}
 }
 
 /* iPhone 4 ----------- */
