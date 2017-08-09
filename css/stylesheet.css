@@ -1,69 +1,87 @@
-body {  
-  font-family: "Open Sans Condense", Arial, Century;
-  font-size:12px;
-  margin:0;
-  margin-top:0px;
+.small-logo {
+  width: 45%;
 }
 
-
-
-#topNav {
-  background-color: #FFFFFF;
-  height: 100px;
-  margin: auto;
-}
-.logo {
-  width: 150px;
+.navbar-default {
+  background-color: #FFF;
 }
 
-.small-logo{
-  width: 275px;
-}
-/**** xs size ****/
-
-@media screen(min-width : 480px) {
-  .small-logo {
-    display: hidden;
-
-}
+nav {
+  width: 100vw;
 }
 
-
-/*
-#header ul {
-        margin:0 auto;
-        width:800px;
-        padding:12px;
-    list-style: none;
+nav ul {
+  overflow: hidden;
+  width: 100vw;
+}
+#homePadding {
+  padding-left: 0%;
 }
 
-#header li {
-  float: left;
+#addPaddingRight {
+  padding-right: 0;
 }
 
-#header a {
-    padding:0 14px;
-    text-align:center;
-  display:block;    
-}    
-
-    
-#header ul li a.logo {
-    background: url('./assets/douglas-black.jpg');
-    background-repeat:no-repeat;
-    height:140px;
-    display:block;
-    width:215px;
-    margin-top:-61px;
-    padding: 0;
+#contactPadding{
+  padding-left: 5%;
 }
 
-.clearfix {
-  *zoom: 1;
+#logo {
+  width: 90%;
 }
 
-.clearfix:after {
-     content: "";
-  clear: both;
-  display: table;
-}*/
+#navbar {
+  overflow-x: hidden;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
