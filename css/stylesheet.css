@@ -184,7 +184,7 @@ body {
 }
 }
 
-@media only screen and (min-width : 1450px) {
+@media only screen and (min-width : 1440px) {
 #homePadding {
   padding-left: 16.5%;
 }
