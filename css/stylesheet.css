@@ -101,10 +101,7 @@ body {
 #homePadding{
   padding-left: 10%;
 }
-
 }
-
-
 
 
 /* iPads (portrait and landscape) ----------- */
@@ -145,9 +142,51 @@ body {
 }
 
 /* Desktops and laptops ----------- */
+@media only screen and (min-width : 1000px) {
+#homePadding {
+  padding-left: 10.5%;
+}
+#rotator {
+/*    padding-left: 12%;
+    padding-right: 12%;*/
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /*margin-top: 1%;*/
+}
+}
+
 @media only screen and (min-width : 1224px) {
 #homePadding {
-  padding-left: 21.5%;
+  padding-left: 12.5%;
+}
+#rotator {
+    padding-left: 12%;
+    padding-right: 12%;
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /*margin-top: 1%;*/
+}
+}
+
+@media only screen and (min-width : 1450px) {
+#homePadding {
+  padding-left: 16.5%;
 }
 #rotator {
     padding-left: 15%;
@@ -194,21 +233,6 @@ body {
 and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***** General Responsive Design *****/
 
@@ -257,7 +281,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/full-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -274,8 +297,8 @@ header {
 .nav {
   margin-left: 7%;
   margin-right: 7%;
-
 }
+.paddingHome
 }
 /*    header {
         min-height: 100%;

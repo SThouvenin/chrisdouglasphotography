@@ -40,31 +40,3 @@ images[8] = "image10.jpg";
 images[9] = "image11.jpg";
 setTimeout("changeImage()", 10000)
 
-// (function() {
-// var rotator = document.getElementById('rotator');  // change to match image ID
-// var imageDir = 'assets/';                          // change to match images folder
-// var delayInSeconds = 1;                            // set number of seconds delay
-//    var delayInSeconds = 1,                           //delay in seconds
-//    var num = 0,                                      //start number
-//    var len = 9999;                                      //limit
-// var images = ['image1.jpg','image2.jpg', 'image3.jpg', 'image4.jpg'];
-
-// // don't change below this line
-// var num = 0;
-// var changeImage = function() {
-//     var len = images.length;
-//     rotator.src = images[num++];
-//     if (num == len) {
-//         num = 0;
-//     }
-// };
-// setInterval(function(){                           //interval changer
-//     num = (num === len) ? 0 : num;                //reset if limit reached
-//     rotator.src = images + num  ;                     //change picture
-//     num++;                                        //increment counter
-// }, delayInSeconds * 1000);
-// })();
-
-
-
-
