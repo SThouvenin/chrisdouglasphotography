@@ -39,7 +39,9 @@ nav ul {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-
+#aboutPadding {
+  margin-top: -21px;
+}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -133,14 +135,14 @@ body {
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
 #homePadding {
-  padding-left: 15%;
+  padding-left: 21.5%;
 }
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
 #homePadding {
-  padding-left: 15%;
+  padding-left: 25%;
 }
 #contactPadding{
   padding-right: 15%;
@@ -151,4 +153,567 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
 and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** General Responsive Design *****/
+
+@media (min-width : 20px) and (max-width : 766px) {
+  .hidden {
+display: visible;
+}
+}
+    /*header .fancy {
+      margin: -20%;
+    }
+    header .smaller{
+      margin: 21%;
+    }
+  header .picture {
+      position: absolute;
+      top: 50%;
+      padding: 0 50px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    header .picture .one {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1000px;
+    }
+    header .picture .one h1 {
+        font-size: 53px;
+    }
+    header .picture .one p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+}*/
+
+@media(min-width:767px) {
+header {
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/full-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy{
+  margin-top: 200px;
+  font-size: 3em;
+}
+.smaller {
+  text-transform: none;
+
+/*  padding-bottom: 20%;*/
+}
+}
+/*    header {
+        min-height: 100%;
+    }*/
+/*    header .picture {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);*/
+    /*}*/
+/*    header .picture .one {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;*/
+   /* }*/
+    
+/*    header .picture .one p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;*/
+/*    }
+}*/
+
+/* NEXUS (portrait and landscape) ----------- */
+/* Smartphone (Nexus 4) */
+@media screen and (device-width : 384px) and (device-height : 640px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
+  header {
+    position: relative;
+    min-height: 640px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy{
+  margin-top: 200px ;
+  font-size: 3em;
+}
+.smaller {
+  text-transform: none;
+/*  padding-bottom: 20%;*/
+}
+}
+
+@media screen and (device-width: 640px) and (device-height : 384px) and (-webkit-device-pixel-ratio : 2) and (orientation : landscape){
+  header {
+    position: relative;
+    min-height: 384px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+}
+
+/* Smartphone (Nexus 5 and Nexus 5X) */
+@media screen and (device-width : 360px) and (device-height : 640px) {
+  header {
+    position: relative;
+    min-height: 640px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+}
+
+@media screen and (device-width : 640px) and (device-height : 360px) {
+  header {
+    position: relative;
+    min-height: 384px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 1.1em !important;
+  padding-top: 150px;
+}
+.fancy{
+  margin-top: -175px;
+}
+
+.smaller {
+  text-transform: none;
+  font-size: 1.3em;
+/*  padding-bottom: 70%;*/
+}
+}
+
+/* Smartphone (Nexus 6) (Nexus 6P) */
+@media screen and (device-width : 412px) and (device-height : 732px) {
+  header {
+    position: relative;
+    min-height: 732px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+}
+
+@media screen and (device-width : 732px) and (device-height : 412px) {
+  header {
+    position: relative;
+    min-height: 412px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 3.8em;
+  padding-top: 3%;
+}
+.fancy{
+  margin-top: -20px;
+}
+
+.smaller {
+  font-size: 1.5em;
+  text-transform: none;
+  padding-bottom: 35%;
+
+}
+}
+
+/* Tablet (Nexus 7) */
+@media screen and (device-width : 600px) and (device-height : 960px) {
+  header {
+    position: relative;
+    min-height: 960px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+}
+
+@media screen and (device-width : 960px) and (device-height : 600px) {
+  header {
+    position: relative;
+    min-height: 600px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/full-image1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 3.8em;
+  padding-top: 3%;
+}
+.fancy{
+  margin-top: -20px;
+}
+
+.smaller {
+  font-size: 1.5em;
+  text-transform: none;
+/*  padding-bottom: 35%;*/
+
+}
+}
+
+/* Tablet (Nexus 10) */
+@media screen and (device-width : 800px) and (device-height : 1280px) {
+  header {
+    position: relative;
+    min-height: 1280px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image2.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+ }
+
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 3.8em;
+  padding-top: 3%;
+}
+.fancy{
+  margin-top: 300px !important; 
+}
+
+.smaller {
+  font-size: 1.5em;
+  text-transform: none;
+  /*padding-bottom: 35%;*/
+}
+}
+
+@media screen and (device-width : 1280px) and (device-height : 800px) {
+  header {
+    position: relative;
+    min-height: 800px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image2.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 3.8em;
+  padding-top: 3%;
+}
+.fancy{
+  margin-top: -150px;
+}
+
+.smaller {
+  font-size: 1.5em;
+  text-transform: none;
+  /*padding-bottom: 35%;*/
+}
+}
+
+/* IPHONE AND IPAD (Portrait and Landscape) */
+
+/* Smartphone (iPhone 4) */
+@media screen and (device-width : 320px) and (device-height: 480px) {
+  header {
+    position: relative;
+    min-height: 480px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image2.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 1.9em;
+  padding-top: 3%;
+}
+.fancy{
+  margin-top: 175px;
+}
+
+.smaller {
+  text-transform: none;
+  font-size: .9em;
+}
+}
+
+@media screen and (device-width : 480px) and (device-height : 320px) {
+  header {
+    position: relative;
+    min-height: 320px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image2.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 2em;
+  padding-top: 3%;
+}
+.fancy{
+  margin-top: 125px;
+}
+
+.smaller {
+  text-transform: none;
+  font-size: .9em;
+  /*padding-bottom: 5%;*/
+}
+}
+
+/* Smartphone (iPhone 5) */
+@media screen and (device-width : 320px) and (device-height: 568px) {
+  header {
+    position: relative;
+    min-height: 568px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-image: url('../assets/cell-image2.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy {
+  font-family: "Montez";
+  text-transform: none;
+  font-size: 1.9em;
+  padding-top: 3%;
+}
+.fancy{
+  /*margin-top: 230px;*/
+}
+
+.smaller {
+  text-transform: none;
+  font-size: .9em;
+}
+}
+
+@media screen and (device-width : 568px) and (device-height : 320px) {
+
+}
+
+/* Smartphone (iPhone 6) */
+@media screen and (device-width : 375px) and (device-height: 667px) {
+
+}
+
+@media screen and (device-width : 667px) and (device-height : 375px) {
+
+}
+
+/* Smartphone (iPhone 6 Plus) */
+@media screen and (device-width : 414px) and (device-height: 736px) {
+
+}
+
+@media screen and (device-width : 736px) and (device-height : 414px) {
+
+}
+
+/* iPad (iPad Mini and Standard) */
+@media screen and (device-width : 768px) and (device-height: 1024px) {
+
+}
+
+@media screen and (device-width : 1024px) and (device-height : 768px) {
+/***********DEFAULT*******/
+
+}
+
+/* iPad (iPad Pro) */
+@media screen and (device-width : 1024px) and (device-height: 1366px) {
+
+}
+
+@media screen and (device-width : 1366px) and (device-height : 1024px) {
+
+}
+
+/****** GALAXY DEVICES*****/
+/* Phone (Galaxy Note 3 + II + Galaxy S III + Galaxy S5) */
+@media screen and (device-width : 360px) and (device-height: 640px) {
+
+}
+
+@media screen and (device-width : 360px) and (device-height : 640px) {
+
+}
+
+/***** BLACKBERRY DEVICES
+/* Phone (BlackBerry Z30) - Same as Galaxy - */
+/*@media screen and (device-width : 360px) and (device-height: 640px) {
+
+}
+
+@media screen and (device-width : 360px) and (device-height : 640px) {
+
+}*/
+
+/* Tablet (BlackBerry Playbook) */
+@media screen and (device-width : 600px) and (device-height: 1024px) {
+
+}
+
+@media screen and (device-width : 1024px) and (device-height : 600px) {
+
+}
+/***** VARIOUS DEVICES *****/
+/* LG Phone (LG Optimus L70) */
+@media screen and (device-width : 384px) and (device-height: 640px) {
+
+}
+
+@media screen and (device-width : 640px) and (device-height : 384px) {
+
+}
+
+/* Tablet Kindle (Kindle Fire) */
+@media screen and (device-width : 1600px) and (device-height: 2560px) {
+
+}
+
+@media screen and (device-width : 2560px) and (device-height : 1600px) {
+
+}
+
+/* Nokia Phone (Nokia Lumia 520) */
+@media screen and (device-width : 320px) and (device-height: 533px) {
+
+}
+
+@media screen and (device-width : 533px) and (device-height : 320px) {
+
+}
+
+/* Nokia Phone/Microsoft (Nokia N9 and Lumia 550) */
+@media screen and (device-width : 360px) and (device-height: 640px) {
+
+}
+
+@media screen and (device-width : 640px) and (device-height : 360px) {
+
+}
+
+/* Microsoft (Microsoft Lumia 950) */
+@media screen and (device-width : 360px) and (device-height: 640px) {
+
+}
+
+@media screen and (device-width : 640px) and (device-height : 360px) {
+
 }
