@@ -1,7 +1,18 @@
 body{
   overflow-x: hidden;
 }
-
+#rotator {
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .small-logo {
   width: 45%;
 }
