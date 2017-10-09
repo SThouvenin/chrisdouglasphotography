@@ -101,6 +101,7 @@ body {
 #homePadding{
   padding-left: 10%;
 }
+
 }
 
 
@@ -148,6 +149,20 @@ body {
 #homePadding {
   padding-left: 21.5%;
 }
+#rotator {
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 }
 
 /* Large screens ----------- */
@@ -157,6 +172,20 @@ body {
 }
 #contactPadding{
   padding-right: 15%;
+}
+#rotator {
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 }
 
@@ -186,6 +215,9 @@ and (min-device-pixel-ratio : 1.5) {
 @media (min-width : 20px) and (max-width : 766px) {
   .hidden {
 display: visible;
+}
+.nav {
+  margin-left: 1.8%;
 }
 }
     /*header .fancy {
@@ -238,8 +270,11 @@ header {
 }
 .smaller {
   text-transform: none;
+}
+.nav {
+  margin-left: 7%;
+  margin-right: 7%;
 
-/*  padding-bottom: 20%;*/
 }
 }
 /*    header {
@@ -307,6 +342,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
 }
 
 /* Smartphone (Nexus 5 and Nexus 5X) */
@@ -420,6 +456,9 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+#aboutPadding {
+  margin-top: -21px;
 }
 }
 
@@ -638,7 +677,10 @@ header {
 
 /* iPad (iPad Mini and Standard) */
 @media screen and (device-width : 768px) and (device-height: 1024px) {
-
+.navbar-nav {
+  margin-left: 10%;
+  float: default;
+}
 }
 
 @media screen and (device-width : 1024px) and (device-height : 768px) {
