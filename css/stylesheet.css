@@ -30,7 +30,6 @@ nav ul {
   overflow: hidden;
   width: 100vw;
 }
-
 #addPaddingRight {
   padding-right: 0;
 }
@@ -46,6 +45,8 @@ nav ul {
 #navbar {
   overflow-x: hidden;
 }
+
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) 
@@ -63,12 +64,16 @@ and (max-device-width : 480px) {
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 /* Styles */
+#aboutPadding {
+  padding-top: -21px;
+}
 }
 
 /* Nexus 10(portrait and landscape) ----------- */
 @media only screen and (min-device-width : 800px) 
 and (max-device-width : 1280px) {
 /* Styles */
+
 }
 
 /* Nexus 10 (landscape) ----------- */
@@ -298,7 +303,8 @@ header {
   margin-left: 7%;
   margin-right: 7%;
 }
-.paddingHome
+.paddingHome {
+}
 }
 /*    header {
         min-height: 100%;
@@ -334,7 +340,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -358,14 +363,13 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image1.jpg');
+
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
 }
 
 /* Smartphone (Nexus 5 and Nexus 5X) */
@@ -376,7 +380,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image1.jpg');
+
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -392,7 +396,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image1.jpg');
+
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -424,7 +428,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image1.jpg');
+
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -440,7 +444,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -473,7 +476,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image1.jpg');
+  
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -492,7 +495,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/full-image1.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -525,7 +527,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -557,7 +558,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -591,7 +591,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
+
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -621,7 +621,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -653,7 +652,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-image: url('../assets/cell-image2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
