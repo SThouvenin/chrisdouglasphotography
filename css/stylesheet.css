@@ -342,6 +342,9 @@ header {
 .smaller {
   text-transform: none;
 }
+.logo {
+  width: 275px;
+}
 .nav {
   margin-left: 5%;
   margin-right: 7%;
@@ -371,7 +374,62 @@ header {
   text-transform: none;
 }
 .nav {
-  margin-left: 0%;
+  margin-left: 5%;
+  margin-right: 7%;
+}
+.paddingHome {
+}
+}
+@media(min-width:1001px) and (max-width:1350px) {
+header {
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy{
+  margin-top: 200px;
+  font-size: 3em;
+}
+.smaller {
+  text-transform: none;
+}
+.nav {
+  margin-left: 2%;
+  margin-right: 7%;
+}
+.paddingHome {
+}
+}
+
+@media(min-width:1351px) and (max-width:1700px) {
+header {
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy{
+  margin-top: 200px;
+  font-size: 3em;
+}
+.smaller {
+  text-transform: none;
+}
+.nav {
+  margin-left: 2.5%;
   margin-right: 7%;
 }
 .paddingHome {
