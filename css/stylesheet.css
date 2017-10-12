@@ -274,6 +274,14 @@ body {
 and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
+/******Screen Break 1823 *******/
+@media only screen and (min-width : 900px) 
+and (max-width : 1823px) {
+  .nav {
+  margin-left: 9%;
+  ;
+}
+}
 
 /***** General Responsive Design *****/
 
@@ -314,8 +322,7 @@ display: visible;
         font-size: 18px;
     }
 }*/
-
-@media(min-width:767px) {
+@media(min-width:600px) and (max-width:839px) {
 header {
     position: relative;
     min-height: 100%;
@@ -336,7 +343,35 @@ header {
   text-transform: none;
 }
 .nav {
-  margin-left: 7%;
+  margin-left: 5%;
+  margin-right: 7%;
+}
+.paddingHome {
+}
+}
+
+@media(min-width:840px) and (max-width:1000px) {
+header {
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.fancy{
+  margin-top: 200px;
+  font-size: 3em;
+}
+.smaller {
+  text-transform: none;
+}
+.nav {
+  margin-left: 0%;
   margin-right: 7%;
 }
 .paddingHome {
