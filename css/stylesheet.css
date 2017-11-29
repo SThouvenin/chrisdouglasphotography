@@ -19,7 +19,7 @@ body{
 
 .navbar-default {
   background-color: #FFF;
-  border-color: rgba(35,35,35,.15);
+  border-color: transparent;
   border-right: transparent;
 }
 
@@ -55,7 +55,6 @@ nav ul {
 .footer{
     display: block;
     clear: both;
-
 }
 .footerSection{
     padding: 25px 2px 5px 2px;
