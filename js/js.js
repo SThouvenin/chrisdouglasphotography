@@ -8,8 +8,8 @@ function changeImage()
         x = 0;
     } 
 
-    fadeImg(img, 700, true);
-    setTimeout("changeImage()", 7000);
+    fadeImg(img, 600, true);
+    setTimeout("changeImage()", 6000);
 }
 
 function fadeImg(el, val, fade){
@@ -29,14 +29,14 @@ var images = [],
 x = 0;
 
 images[0] = "image2.jpg";
-images[1] = "image3.jpg";
+images[1] = "image14.jpg";
 images[2] = "image4.jpg";
-images[3] = "image5.jpg";
+images[3] = "image13.jpg";
 images[4] = "image6.jpg";
 images[5] = "image7.jpg";
 images[6] = "image8.jpg";
 images[7] = "image9.jpg";
 images[8] = "image10.jpg";
 images[9] = "image11.jpg";
-setTimeout("changeImage()", 7000)
+setTimeout("changeImage()", 6000)
 
