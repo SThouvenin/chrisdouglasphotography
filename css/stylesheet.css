@@ -23,10 +23,10 @@ body{
   border-right: transparent;
 }
 
-/*nav {
+nav {
   width: 100vw;
-  margin-right: 25px;
-}*/
+/*  margin-right: 25px;*/
+}
 
 nav ul {
   overflow: hidden;
@@ -127,14 +127,14 @@ and (max-device-width : 1280px) {
 and (max-device-width : 1280px) 
 and (orientation : landscape) {
 /*#homePadding{
-  padding-left: 9%;
+  margin-left: 6%;
 }*/
 .logo #logo{
   width: 350px;
 }
-.container {
+/*.container {
   width: 100vw;
-}
+}*/
 
 }
 
@@ -169,14 +169,14 @@ and (orientation : landscape) {
   padding-left: 9%;
 }*/
 .logo #logo{
-  width: 150px;
+  width: 350px;
 }
-.container {
+/*.container {
   width: 100vw;
-}
-/*#homePadding{
-  padding-left: 15%;
 }*/
+#homePadding{
+  padding-left: 6%;
+}
 }
 
 /* iPads (portrait) ----------- */
@@ -198,13 +198,11 @@ body {
   padding-left: 10.5%;
 }*/
 #rotator {
-/*    padding-left: 12%;
-    padding-right: 12%;*/
     position: relative;
     min-height: auto;
     text-align: center;
     color: #fff;
-    width: 100%;
+    width: 85%;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -215,9 +213,9 @@ body {
 }
 
 @media only screen and (min-width : 1224px) {
-/*#homePadding {
+#homePadding {
   padding-left: 12.5%;
-}*/
+}
 #rotator {
     padding-left: 12%;
     padding-right: 12%;
@@ -236,9 +234,9 @@ body {
 }
 
 @media only screen and (min-width : 1440px) {
-/*#homePadding {
+#homePadding {
   padding-left: 16.5%;
-}*/
+}
 #rotator {
     padding-left: 15%;
     padding-right: 15%;
@@ -257,9 +255,9 @@ body {
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-/*#homePadding {
+#homePadding {
   padding-left: 25%;
-}*/
+}
 #contactPadding{
   padding-right: 15%;
 }
@@ -287,10 +285,9 @@ and (min-device-pixel-ratio : 1.5) {
 /******Screen Break 1823 *******/
 @media only screen and (min-width : 900px) 
 and (max-width : 1823px) {
-/*  .nav {
+  .nav {
   margin-left: 9%;
-  ;
-}*/
+}
 }
 
 /***** General Responsive Design *****/
@@ -299,9 +296,9 @@ and (max-width : 1823px) {
   .hidden {
 display: visible;
 }
-/*.nav {
+.nav {
   margin-left: 1.8%;
-}*/
+}
 }
     /*header .fancy {
       margin: -20%;
@@ -355,14 +352,16 @@ header {
 .logo {
   width: 275px;
 }
-/*.nav {
-  margin-left: 5%;
-  margin-right: 7%;
-}*/
+.nav {
+/*  margin-left: 5%;
+  margin-right: 7%;*/
+}
+.paddingHome {
+}
 }
 
 @media(min-width:840px) and (max-width:1000px) {
-header {
+#rotation {
     position: relative;
     min-height: 100%;
     text-align: center;
@@ -381,14 +380,15 @@ header {
 .smaller {
   text-transform: none;
 }
-/*.nav {
+.nav {
   margin-left: 5%;
   margin-right: 7%;
-}*/
-
+}
+.paddingHome {
+}
 }
 @media(min-width:1001px) and (max-width:1350px) {
-header {
+#rotation {
     position: relative;
     min-height: 100%;
     text-align: center;
@@ -407,15 +407,16 @@ header {
 .smaller {
   text-transform: none;
 }
-/*.nav {
+.nav {
   margin-left: 2%;
   margin-right: 7%;
-}*/
-
+}
+.paddingHome {
+}
 }
 
 @media(min-width:1351px) and (max-width:1700px) {
-header {
+#rotation {
     position: relative;
     min-height: 100%;
     text-align: center;
@@ -434,11 +435,12 @@ header {
 .smaller {
   text-transform: none;
 }
-/*.nav {
+.nav {
   margin-left: 2.5%;
   margin-right: 7%;
-}*/
-
+}
+.paddingHome {
+}
 }
 /*    header {
         min-height: 100%;
@@ -468,7 +470,7 @@ header {
 /* NEXUS (portrait and landscape) ----------- */
 /* Smartphone (Nexus 4) */
 @media screen and (device-width : 384px) and (device-height : 640px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -491,7 +493,7 @@ header {
 }
 
 @media screen and (device-width: 640px) and (device-height : 384px) and (-webkit-device-pixel-ratio : 2) and (orientation : landscape){
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -508,7 +510,7 @@ header {
 
 /* Smartphone (Nexus 5 and Nexus 5X) */
 @media screen and (device-width : 360px) and (device-height : 640px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -524,7 +526,7 @@ header {
 }
 
 @media screen and (device-width : 640px) and (device-height : 360px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -556,7 +558,7 @@ header {
 
 /* Smartphone (Nexus 6) (Nexus 6P) */
 @media screen and (device-width : 412px) and (device-height : 732px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -572,7 +574,7 @@ header {
 }
 
 @media screen and (device-width : 732px) and (device-height : 412px) {
-  header {
+  #rotation {
     position: relative;
    
     text-align: center;
@@ -604,7 +606,7 @@ header {
 
 /* Tablet (Nexus 7) */
 @media screen and (device-width : 600px) and (device-height : 960px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -623,7 +625,7 @@ header {
 }
 
 @media screen and (device-width : 960px) and (device-height : 600px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -655,9 +657,8 @@ header {
 
 /* Tablet (Nexus 10) */
 @media screen and (device-width : 800px) and (device-height : 1280px) {
-  header {
+  #rotation {
     position: relative;
-
     text-align: center;
     color: #fff;
     width: 100%;
@@ -686,7 +687,7 @@ header {
 }
 
 @media screen and (device-width : 1280px) and (device-height : 800px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -719,7 +720,7 @@ header {
 
 /* Smartphone (iPhone 4) */
 @media screen and (device-width : 320px) and (device-height: 480px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -749,7 +750,7 @@ header {
 }
 
 @media screen and (device-width : 480px) and (device-height : 320px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -779,8 +780,7 @@ header {
 }
 
 /* Smartphone (iPhone 5) */
-@media screen and (device-width : 320px) and (device-height: 568px) {
-  header {
+  #rotation {
     position: relative;
 
     text-align: center;
@@ -832,10 +832,10 @@ header {
 
 /* iPad (iPad Mini and Standard) */
 @media screen and (device-width : 768px) and (device-height: 1024px) {
-/*.navbar-nav {
-  margin-left: 10%;
+.navbar-nav {
+/*  margin-left: 10%;*/
   float: default;
-}*/
+}
 }
 
 @media screen and (device-width : 1024px) and (device-height : 768px) {
@@ -845,11 +845,24 @@ header {
 
 /* iPad (iPad Pro) */
 @media screen and (device-width : 1024px) and (device-height: 1366px) {
-
+.logo #logo {
+  width: 400px;
+}
+#homePadding {
+  padding-left: 3%;
+}
 }
 
 @media screen and (device-width : 1366px) and (device-height : 1024px) {
-
+.logo #logo {
+  width: 450px;
+}
+#homePadding {
+  padding-left: 10%;
+}
+.parallax {
+  height: 700px;
+}
 }
 
 /****** GALAXY DEVICES*****/
