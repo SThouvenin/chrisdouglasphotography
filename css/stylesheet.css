@@ -23,10 +23,10 @@ body{
   border-right: transparent;
 }
 
-nav {
+/*nav {
   width: 100vw;
   margin-right: 25px;
-}
+}*/
 
 nav ul {
   overflow: hidden;
@@ -149,9 +149,9 @@ body {
 .logo #logo{
   width: 200px;
 }
-#homePadding{
+/*#homePadding{
   padding-left: 10%;
-}
+}*/
 }
 
 
@@ -174,9 +174,9 @@ and (orientation : landscape) {
 .container {
   width: 100vw;
 }
-#homePadding{
+/*#homePadding{
   padding-left: 15%;
-}
+}*/
 }
 
 /* iPads (portrait) ----------- */
@@ -194,9 +194,9 @@ body {
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1000px) {
-#homePadding {
+/*#homePadding {
   padding-left: 10.5%;
-}
+}*/
 #rotator {
 /*    padding-left: 12%;
     padding-right: 12%;*/
@@ -215,9 +215,9 @@ body {
 }
 
 @media only screen and (min-width : 1224px) {
-#homePadding {
+/*#homePadding {
   padding-left: 12.5%;
-}
+}*/
 #rotator {
     padding-left: 12%;
     padding-right: 12%;
@@ -236,9 +236,9 @@ body {
 }
 
 @media only screen and (min-width : 1440px) {
-#homePadding {
+/*#homePadding {
   padding-left: 16.5%;
-}
+}*/
 #rotator {
     padding-left: 15%;
     padding-right: 15%;
@@ -257,9 +257,9 @@ body {
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-#homePadding {
+/*#homePadding {
   padding-left: 25%;
-}
+}*/
 #contactPadding{
   padding-right: 15%;
 }
@@ -287,10 +287,10 @@ and (min-device-pixel-ratio : 1.5) {
 /******Screen Break 1823 *******/
 @media only screen and (min-width : 900px) 
 and (max-width : 1823px) {
-  .nav {
+/*  .nav {
   margin-left: 9%;
   ;
-}
+}*/
 }
 
 /***** General Responsive Design *****/
@@ -299,9 +299,9 @@ and (max-width : 1823px) {
   .hidden {
 display: visible;
 }
-.nav {
+/*.nav {
   margin-left: 1.8%;
-}
+}*/
 }
     /*header .fancy {
       margin: -20%;
@@ -355,12 +355,10 @@ header {
 .logo {
   width: 275px;
 }
-.nav {
+/*.nav {
   margin-left: 5%;
   margin-right: 7%;
-}
-.paddingHome {
-}
+}*/
 }
 
 @media(min-width:840px) and (max-width:1000px) {
@@ -383,12 +381,11 @@ header {
 .smaller {
   text-transform: none;
 }
-.nav {
+/*.nav {
   margin-left: 5%;
   margin-right: 7%;
-}
-.paddingHome {
-}
+}*/
+
 }
 @media(min-width:1001px) and (max-width:1350px) {
 header {
@@ -410,12 +407,11 @@ header {
 .smaller {
   text-transform: none;
 }
-.nav {
+/*.nav {
   margin-left: 2%;
   margin-right: 7%;
-}
-.paddingHome {
-}
+}*/
+
 }
 
 @media(min-width:1351px) and (max-width:1700px) {
@@ -438,12 +434,11 @@ header {
 .smaller {
   text-transform: none;
 }
-.nav {
+/*.nav {
   margin-left: 2.5%;
   margin-right: 7%;
-}
-.paddingHome {
-}
+}*/
+
 }
 /*    header {
         min-height: 100%;
@@ -837,10 +832,10 @@ header {
 
 /* iPad (iPad Mini and Standard) */
 @media screen and (device-width : 768px) and (device-height: 1024px) {
-.navbar-nav {
+/*.navbar-nav {
   margin-left: 10%;
   float: default;
-}
+}*/
 }
 
 @media screen and (device-width : 1024px) and (device-height : 768px) {
