@@ -31,6 +31,22 @@
 	position: absolute;
 	z-index: 1;
 }
+
+.titleLong {
+	text-align: center;
+	border: 2px solid #cdcdcd;
+	border-radius: 80px 0px;
+	background-color: #ffc967;
+	width: 230px;
+	margin-left: 6%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Marck Script";
+	font-size: 1.8em;
+	margin-top: -40px;
+	position: absolute;
+	z-index: 1;
+}
 #test {
 	z-index: 0;
 	margin-bottom: 50px;
@@ -57,21 +73,37 @@
 	padding-left: 4%;
 }*/
 .profile {
-	width: 200px;
+	display: block;
+	box-shadow: 0 0 0 10px hsl(0, 0%, 60%),
+    0 0 0 15px hsl(0, 0%, 30%);
+	width: 80%;
+	max-width: 370px;
+	height: 100%;
+	margin-top: 45px;
+	padding: 10px;
+	border-radius: 0%;
+}
+.name {
+	color: #525252;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'great vibes';
+	font-size: 1.5em;
+}
+.blip {
+	padding-top: 35px;
 }
 .parallax {
 	background-image: url("../assets/gallery147.jpg");
-	min-height: 500px;
+	min-height: 400px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover !important;
-
 }
 
 
 @media only screen and (max-width: 1200px) {
-
 }
 
 @media only screen and (max-width: 901px)
