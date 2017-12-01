@@ -36,9 +36,9 @@ nav ul {
   padding-right: 0;
 }
 
-/*#contactPadding{
+#contactPadding{
   padding-right: 5%;
-}*/
+}
 
 #logo {
   width: 90%;
@@ -119,7 +119,9 @@ and (max-device-width : 480px) {
 @media only screen and (min-device-width : 800px) 
 and (max-device-width : 1280px) {
 /* Styles */
-
+#contents {
+  margin-left: 6%;
+}
 }
 
 /* Nexus 10 (landscape) ----------- */
@@ -175,7 +177,7 @@ and (orientation : landscape) {
   width: 100vw;
 }*/
 #homePadding{
-  padding-left: 6%;
+  padding-left: 5%;
 }
 }
 
@@ -188,7 +190,10 @@ body {
   overflow-x: hidden;
 }
 .logo #logo{
-  width: 200px;
+  width: 225px;
+}
+nav {
+  padding-left: 4%;
 }
 }
 
@@ -217,8 +222,7 @@ body {
   padding-left: 12.5%;
 }
 #rotator {
-    padding-left: 12%;
-    padding-right: 12%;
+
     position: relative;
     min-height: auto;
     text-align: center;
@@ -238,8 +242,6 @@ body {
   padding-left: 16.5%;
 }
 #rotator {
-    padding-left: 15%;
-    padding-right: 15%;
     position: relative;
     min-height: auto;
     text-align: center;
@@ -526,6 +528,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
 }
 
 @media screen and (device-width : 640px) and (device-height : 360px) {
@@ -881,11 +884,8 @@ header {
 /***** BLACKBERRY DEVICES
 /* Phone (BlackBerry Z30) - Same as Galaxy - */
 /*@media screen and (device-width : 360px) and (device-height: 640px) {
-
 }
-
 @media screen and (device-width : 360px) and (device-height : 640px) {
-
 }*/
 
 /* Tablet (BlackBerry Playbook) */
