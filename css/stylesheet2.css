@@ -62,6 +62,15 @@
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
+.parallax {
+	background-image: url("../assets/gallery147.jpg");
+	min-height: 400px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+}
+
 .separator {
   width: 80%;
   border-color: rgba(35,35,35,.25);
@@ -91,16 +100,30 @@
 	font-size: 1.5em;
 }
 .blip {
-	padding-top: 35px;
+	padding-top: 30px;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 30px;
+	text-align: center;
+	line-height: 1.4em;
+	text-align: justify;
 }
-.parallax {
-	background-image: url("../assets/gallery147.jpg");
-	min-height: 400px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover !important;
+
+.buttons {
+	display:block;
+	text-align: center;
+	border: 2px solid #cdcdcd;
+	border-radius: 80px 0px;
+	background-color: #ffc967;
+	width: 260px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	font-family: "Marck Script";
+	font-size: 1.8em;
+	z-index: 1;
 }
+
 
 
 @media only screen and (max-width: 1200px) {
