@@ -101,8 +101,8 @@ and (max-device-width : 480px) {
   margin-left: -50px;
 }
 .parallax2 {
-  background-image: url("../assets/gallery124.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,6 +113,14 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 /* Styles */
+.parallax2 {
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
 }
 
 /* Smartphones (portrait) ----------- */
@@ -122,8 +130,8 @@ and (max-device-width : 480px) {
   padding-top: -21px;
 }
 .parallax2 {
-  background-image: url("../assets/gallery124.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_2.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -168,8 +176,8 @@ body {
   width: 200px;
 }
 .parallax2 {
-  background-image: url("../assets/gallery124.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_2.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -203,6 +211,14 @@ and (orientation : landscape) {
 #homePadding{
   padding-left: 5%;
 }
+.parallax2 {
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
 }
 
 /* iPads (portrait) ----------- */
@@ -220,8 +236,8 @@ nav {
   padding-left: 4%;
 }
 .parallax2 {
-  background-image: url("../assets/gallery124.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -248,8 +264,8 @@ nav {
     /*margin-top: 1%;*/
 }
 .parallax2 {
-  background-image: url("../assets/gallery126.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -276,8 +292,8 @@ nav {
     /*margin-top: 1%;*/
 }
 .parallax2 {
-  background-image: url("../assets/gallery126.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -303,7 +319,7 @@ nav {
 }
 .parallax2 {
   background-image: url("../assets/gallery126.jpg");
-  min-height: 400px;
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -334,8 +350,8 @@ nav {
     -o-background-size: cover;
 }
 .parallax2 {
-  background-image: url("../assets/gallery126.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -344,16 +360,16 @@ nav {
 }
 
 /* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+/*@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
 and (min-device-pixel-ratio : 1.5) {
   .parallax2 {
-  background-image: url("../assets/gallery124.jpg");
-  min-height: 300px;
+  background-image: url("../assets/parallax_square.jpg");
+  min-height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover !important;
-}
+}*/
 /* Styles */
 }
 /******Screen Break 1823 *******/
@@ -377,8 +393,8 @@ display: visible;
   border-bottom: solid 1px rgba(35,35,35,.1);
 }
 .parallax2 {
-  background-image: url("../assets/gallery124.jpg");
-  min-height: 400px;
+  background-image: url("../assets/parallax_4.jpg");
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

@@ -124,8 +124,6 @@
 	z-index: 1;
 }
 
-
-
 @media only screen and (max-width: 1200px) {
 }
 
@@ -178,16 +176,20 @@
 
 }
 
-/*PARALLEX*/
-
+/*PARALLAX*/
+/*
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-	.parallex {
+	.parallax {
+		background-image: url('../assets/parallax_1');
+		background-attachment: scroll;
 		width: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 	}
-	.parallex2 {
+	.parallax2 {
+		background-image: url('../assets/parallax_2');
+		background-attachment: scroll;
 		width: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -196,52 +198,70 @@
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-	.parallex {
-		background-image: url('../assets/gallery147');
+	.parallax {
+		background-image: url('../assets/parallax_1');
 		background-attachment: scroll;
 		height: 250px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
-	.parallex2 {
-		background-image: url('../assets/gallery124');
+	.parallax2 {
+		background-image: url('../assets/parallax_2');
 		background-attachment: scroll;
 		height: 250px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
-	.parallex {
-		background-image: url('../assets/gallery147');
+	.parallax {
+		background-image: url('../assets/parallax_1');
 		background-attachment: scroll;
 		height: 250px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
-	.parallex2 {
-		background-image: url('../assets/gallery124');
+	.parallax2 {
+		background-image: url('../assets/parallax_2');
 		background-attachment: scroll;
 		height: 250px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {}
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
-	.parallex {
-		background-image: url('../assets/gallery147.jpg');
+	.parallax {
+		background-image: url('../assets/parallax_1.jpg');
 		height: 250px;
 		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
-		.parallex2 {
-		background-image: url('../assets/gallery124.jpg');
+	.parallax2 {
+		background-image: url('../assets/parallax_2.jpg');
 		height: 250px;
 		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
-	.parallex {
-		background-image: url('../assets/gallery147.jpg');
+	.parallax {
+		background-image: url('../assets/parallax_1.jpg');
 		background-attachment: scroll;
 		height: 250px;
 	}
-	.parallex2 {
-		background-image: url('../assets/gallery124.jpg');
+	.parallax2 {
+		background-image: url('../assets/parallax_2.jpg');
 		background-attachment: scroll;
 		height: 250px;
 	}
-}
+}*/
