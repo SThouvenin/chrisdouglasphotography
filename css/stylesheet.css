@@ -130,7 +130,7 @@ and (max-device-width : 480px) {
   padding-top: -21px;
 }
 .parallax2 {
-  background-image: url("../assets/parallax_2.jpg");
+  background-image: url("../assets/parallax_4.jpg");
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -176,7 +176,7 @@ body {
   width: 200px;
 }
 .parallax2 {
-  background-image: url("../assets/parallax_2.jpg");
+  background-image: url("../assets/parallax_4.jpg");
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
