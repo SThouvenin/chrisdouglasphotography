@@ -48,6 +48,47 @@ nav ul {
   overflow-x: hidden;
 }
 
+/**** CONTACT FORM ****/
+label {
+    display:block;
+    font-size: .85em;
+    margin-top:20px;
+    letter-spacing:2px;
+    font-family: "Spinnaker";
+    padding-bottom: 3.5px;
+}
+
+.formInfo {
+  text-align: center;
+}
+#submit {
+  margin-top: 40px;
+  border: 2px solid #cdcdcd;
+  border-radius: 80px 0px;
+  background-color: lightgrey;
+  width: 260px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  font-family: "Marck Script";
+  font-size: 1.8em;
+  z-index: 1;
+}
+.formName {
+  color: #525252;
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'great vibes';
+  font-size: 2em;
+}
+input {
+  border: solid 1px;
+}
+textarea {
+  border: solid 1px;
+  width: 80%;
+  height: 200px;
+}
 /**** Footer ****/
 #navbar {
   text-align: center;
@@ -55,6 +96,7 @@ nav ul {
 .footer{
     display: block;
     clear: both;
+    padding-bottom: 40px;
 }
 .footerSection{
     padding: 25px 2px 5px 2px;
@@ -88,7 +130,7 @@ nav ul {
 }
 
 
-/*Smartphones (portrait and landscape) ----------- */
+/*Smartphones (portrait and landscape) ----------- 
 @media only screen and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 #aboutPadding {
@@ -318,7 +360,7 @@ nav {
     -o-background-size: cover;
 }
 .parallax2 {
-  background-image: url("../assets/gallery126.jpg");
+  background-image: url("../assets/parallax_4.jpg");
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
