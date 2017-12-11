@@ -18,7 +18,7 @@
 }
 .title {  
 	text-align: center;
-	border: 2px solid #cdcdcd;
+	border: 2px solid #ffc967;
 	border-radius: 80px 0px;
 	background-color: #ffc967;
 	width: 200px;
@@ -34,7 +34,7 @@
 
 .titleLong {
 	text-align: center;
-	border: 2px solid #cdcdcd;
+	border: 2px solid #ffc967;
 	border-radius: 80px 0px;
 	background-color: #ffc967;
 	width: 230px;
@@ -103,16 +103,17 @@
 	padding-top: 30px;
 	padding-left: 15%;
 	padding-right: 15%;
-	padding-bottom: 30px;
+	padding-bottom: 63px;
 	text-align: center;
-	line-height: 1.4em;
+	line-height: 1.6em;
 	text-align: justify;
+
 }
 
 .buttons {
 	display:block;
 	text-align: center;
-	border: 2px solid #cdcdcd;
+	border: 2px solid #ffc967;
 	border-radius: 80px 0px;
 	background-color: #ffc967;
 	width: 260px;
