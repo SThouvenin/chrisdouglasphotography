@@ -1,12 +1,12 @@
 <?php
-if(isset($_POST["submit"])) {
+if(isset($_GET["submit"])) {
 $recipient = "shannon.thouvenin@gmail.com"; //my email
 echo $subject = 'Email message from Chris Douglas Photography Site';
-echo $name = $_POST ["yourName"];
-echo $email = $_POST["yourEmail"];
-echo $phone = $_POST["yourPhone"];
-echo $location = $_POST["yourLocate"];
-echo  $message = $_POST["yourMessage"];
+echo $name = $_GET ["yourName"];
+echo $email = $_GET["yourEmail"];
+echo $phone = $_GET["yourPhone"];
+echo $location = $_GET["yourLocate"];
+echo  $message = $_GET["yourMessage"];
 
  $mailBody="Name: $name\nEmail: $email\n\n$message"; 
 
