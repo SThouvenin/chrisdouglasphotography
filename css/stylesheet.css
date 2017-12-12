@@ -27,7 +27,10 @@ nav {
   width: 100vw;
 /*  margin-right: 25px;*/
 }
-
+li {
+/*  font-family: 'Spinnaker'*/;
+font-size: 1.1em;
+}
 nav ul {
   overflow: hidden;
   width: 100vw;
@@ -132,6 +135,26 @@ textarea {
 .social {
 
 }
+@media only screen and (min-width : 1001px) and (max-width : 1023px)
+{
+ #navbar{
+  padding-left: 11% !important;
+  } 
+}
+@media only screen and (min-width : 1024px) and (max-width : 1142px)
+{
+ #navbar{
+  padding-left: 18% !important;
+  } 
+}
+@media only screen and (min-width : 1143px) and (max-width : 1223px)
+{
+ #navbar{
+  padding-left: 20% !important;
+  } 
+}
+
+
 
 @media only screen and (min-width : 321px) and (max-width : 767px) {
  #contactPadding {
