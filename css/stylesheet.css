@@ -290,6 +290,7 @@ nav {
 }
 .parallax2 {
   background-image: url("../assets/parallax_4.jpg");
+  width: 100vw;
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
