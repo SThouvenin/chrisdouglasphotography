@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
 /*** Photo Section ***/
+.back {
+	font-family: "Marck Script";
+	font-size: 1.3em;
+	padding-top: 30px;
+	text-decoration: none;
+}
 
 #photos {
   /* Prevent vertical gaps */
