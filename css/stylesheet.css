@@ -3,6 +3,7 @@ body{
 }
 #rotator {
     position: relative;
+    padding-left: 20px;
     min-height: auto;
     text-align: center;
     color: #fff;
@@ -543,7 +544,6 @@ header {
 #rotation {
     position: relative;
     min-height: 100%;
-    text-align: center;
     color: #fff;
     width: 100%;
     background-position: center;
@@ -751,11 +751,10 @@ header {
 @media screen and (device-width : 412px) and (device-height : 732px) {
   #rotation {
     position: relative;
-
+    min-height: 100%;
     text-align: center;
     color: #fff;
     width: 100%;
-
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

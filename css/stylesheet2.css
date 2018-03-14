@@ -53,6 +53,11 @@
 	position: absolute;
 	z-index: 1;
 }
+
+#titleXLong {
+	z-index: 0;
+	margin-bottom: 80px;
+}
 #test {
 	z-index: 0;
 	margin-bottom: 50px;
@@ -139,7 +144,7 @@
 @media only screen and (max-width: 901px)
 {
     .column {
-        padding: 10px;
+        padding: ;
 /*        margin-left:;*/
     }
 
@@ -151,11 +156,11 @@
     /*    float: none;*/
         width: 90%;
         padding: 0px;
-        margin: 0 15px 0;
+        margin: 0 0px 0 50px;
     } 
-    nav {
+    /*nav {
     	margin-right: 3%;
-    }
+    }*/
 
 /*    .title {
     	margin-left: 100px;
