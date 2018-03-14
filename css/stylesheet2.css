@@ -154,9 +154,9 @@
 {
     .column {
     /*    float: none;*/
-        width: 90%;
-        padding: 0px;
-        margin: 0 0px 0 50px;
+        width: 100%;
+        padding-left: 20px;
+        margin: 0 0px 0 0px;
     } 
     /*nav {
     	margin-right: 3%;
