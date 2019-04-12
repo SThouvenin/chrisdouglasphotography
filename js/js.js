@@ -31,11 +31,11 @@ x = 0;
 images[0] = "image2.jpg";
 images[1] = "image14.jpg";
 images[2] = "image4.jpg";
-images[3] = "image17.jpg";
-images[4] = "image6.jpg";
-images[5] = "image7.jpg";
+images[3] = "image22.jpg";
+images[4] = "image21.jpg";
+images[5] = "image9.jpg";
 images[6] = "image8.jpg";
-images[7] = "image9.jpg";
+images[7] = "image7.jpg";
 images[8] = "image10.jpg";
 images[9] = "image11.jpg";
 setTimeout("changeImage()", 6000)
